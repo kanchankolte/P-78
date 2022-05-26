@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>familybook</title>
+        <link rel="style.sheet" href="PROJECT-78 FAMILYBOOK.CSS">
+    </head>
+    <body style="text-align:center";
+    <h1>My Family Book</h1>
+    <img src="" style="width: 280px; height:150px;" id="family_member_image">
+    <h4 id="family_member_name"></h4>
+    <button id=next-button onclick="update();">next</button>
+<script>
+    var images = [
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "",
+      "", 
+    ]
+    var names = [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ];
+    var i =0
+    function update() {
+        i++;
+        var numbers_of_family_member_in_array = 14
+        if(i > number_of_family_In_array)
+        {
+            i=0;
+        }
+        var updatedimage= images[i];
+        var updatedname= names[i];
+        document.getElementById("family_member_images") src = updatedimage;
+        document.getElementById("family_member_names") src = updatednames;
+    }
+    </script>
+    </body>
+    </html>
